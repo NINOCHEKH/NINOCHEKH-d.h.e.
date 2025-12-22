@@ -1,9 +1,9 @@
 @keyframes moveRun {
   0% {
-    transform: translateX(0);
+    transform: translateX(-1.07vw);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-98.18%);
   }
 }
 
@@ -172,25 +172,86 @@
 
 @keyframes feel1 {
   0% {
-    transform: translateX(-27%);
+    transform: translateX(-70%);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(90%);
+  }
+}
+@keyframes feel2 {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(97%);
+  }
+}
+
+@keyframes line {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(32.5vw);
+  }
+  100% {
+    transform: translateX(64vw);
+  }
+}
+
+@keyframes line2 {
+  0% {
+    transform: translateX(64vw);
+  }
+  50% {
+    transform: translateX(32.5vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes error {
+  0%,
+  100% {
+    background-color: #000000; /* Красный */
+  }
+  33% {
+    background-color: #bd67ff; /* Черный */
+  }
+  66% {
+    background-color: #ffffff; /* Белый */
+    color: #000000; /* Меняем цвет текста на черный */
+  }
+}
+
+@keyframes whiteInteractive {
+  0% {
+    transform: translate(0) rotate(-88deg);
+  }
+  100% {
+    transform: translate(0) rotate(85deg);
+  }
+}
+
+@keyframes words1rotation {
+  0% {
+    transform: translateY(0vw) rotate(0deg);
+  }
+  100% {
+    transform: translateY(0vw) rotate(300deg);
   }
 }
 
 @keyframes section-3-left-bottom {
   0% {
-    background-position: 0 0;
+    background-position-x: -0.19vw;
   }
   33% {
-    background-position: -97.5vw 0;
+    background-position-x: -32.5vw;
   }
   66% {
-    background-position: -195vw 0;
-  }
-  100% {
-    background-position: 0 0;
+    background-position-x: -64.83vw;
   }
 }
 
