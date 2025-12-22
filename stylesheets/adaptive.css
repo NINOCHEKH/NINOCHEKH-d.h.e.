@@ -1062,3 +1062,50 @@
     width: 67.5vw;
   }
 }
+
+@media (max-width: 414px) {
+  #section-2 {
+    width: 100vw;
+    height: 94.8vw;
+  }
+  .back2 img {
+    width: 105%;
+    height: 116%;
+  }
+
+  #section2-2-1 {
+    width: 98.6vw;
+    height: 45vw;
+    font-size: 1.86vw;
+  }
+
+  #section-2-bottom {
+    width: 100%;
+    height: 38vw;
+  }
+  #section2-2-2 {
+    width: 100.4vw;
+    height: 61vw;
+  }
+  #section-2-all {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+  #section-2-top {
+    flex-direction: column;
+  }
+
+  #section2-2 {
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  #section-1 {
+    order: 2;
+    width: 100% !important;
+    height: 41vw;
+    overflow: hidden;
+    justify-content: center;
+  }
+}
