@@ -3,18 +3,6 @@
     box-sizing: border-box;
   }
 
-  body {
-    width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-  }
-
-  html {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
   #main {
     flex-direction: column;
   }
@@ -114,7 +102,7 @@
     height: 54.8vw;
   }
   #section2-2-1 {
-    width: 43.6vw;
+    width: 45.4vw;
     height: 27vw;
     font-size: 1.86vw;
   }
@@ -1082,13 +1070,6 @@
 @media (max-width: 414px) {
   * {
     box-sizing: border-box;
-  }
-
-  body {
-    width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
   }
 
   .stroka div:nth-of-type(1) {
