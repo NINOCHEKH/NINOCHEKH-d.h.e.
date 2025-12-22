@@ -14,6 +14,7 @@
     overflow-x: hidden;
     width: 100%;
   }
+
   #main {
     flex-direction: column;
   }
@@ -1090,13 +1091,15 @@
     padding: 0;
   }
 
-  html {
-    overflow-x: hidden;
-    width: 100%;
+  .stroka div:nth-of-type(1) {
+    font-family: "TTLakesNeueEduRegular";
+    font-size: 6.8vw;
+    width: 203.7%;
+    height: 13.5vw;
   }
 
   #section-2 {
-    width: 100% !important;
+    width: 100%;
     height: 94.8vw;
     max-width: 100%;
     overflow: hidden;
@@ -1109,7 +1112,7 @@
   }
 
   #section2-2-1 {
-    width: 100% !important;
+    width: 100%;
     height: 45vw;
     font-size: 4.5vw;
     max-width: 100%;
@@ -1123,7 +1126,7 @@
   }
 
   #section2-2-2 {
-    width: 100% !important;
+    width: 100%;
     height: 61vw;
     max-width: 100%;
     overflow: hidden;
@@ -1146,13 +1149,13 @@
 
   #section2-2 {
     flex-direction: column;
-    width: 100% !important;
+    width: 100%;
     max-width: 100%;
   }
 
   #section-1 {
     order: 2;
-    width: 100% !important;
+    width: 100%;
     height: 41vw;
     overflow: hidden;
     justify-content: center;
@@ -1163,7 +1166,7 @@
   .stroka2,
   #section-3-all,
   #section-4-all {
-    width: 100% !important;
+    width: 100%;
     max-width: 100%;
     overflow: hidden;
   }
