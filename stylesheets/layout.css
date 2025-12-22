@@ -1666,9 +1666,8 @@ body {
 .words10 {
   position: absolute;
   align-items: center;
-  width: 62.8vw;
-  height: 62.8vw;
-  padding-top: 7.5vw;
+  width: 51.8vw;
+  height: 51.8vw;
   animation: words1rotation 7s linear infinite alternate;
 }
 

@@ -1093,6 +1093,47 @@
     max-width: 100%;
     overflow: hidden;
   }
+  .mask {
+    top: 26.2%;
+    left: 35.7%;
+  }
+  .mask img {
+    width: 48vw;
+    height: 57vw;
+  }
+  .eyes {
+    top: 42%;
+    left: 84.5%;
+  }
+  .eyes img {
+    width: 30vw;
+    height: 18.6vw;
+  }
+
+  .emotion1 {
+    top: 26.5%;
+    left: 85%;
+  }
+  .emotion1 img {
+    width: 9vw;
+    height: 9vw;
+  }
+  .emotion2 {
+    top: 32.3%;
+    left: 103%;
+  }
+  .emotion2 img {
+    width: 6vw;
+    height: 5vw;
+  }
+  .emotion3 {
+    top: 57.9%;
+    left: 89.4%;
+  }
+  .emotion3 img {
+    width: 3.5vw;
+    height: 4.2vw;
+  }
 
   .back2 img {
     width: 105%;
