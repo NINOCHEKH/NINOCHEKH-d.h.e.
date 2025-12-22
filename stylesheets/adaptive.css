@@ -1077,8 +1077,9 @@
   .stroka div:nth-of-type(1) {
     font-family: "TTLakesNeueEduRegular";
     font-size: 6.8vw;
-    width: 203.7%;
+    width: 236.7%;
     height: 13.5vw;
+    gap: 4vw;
   }
   .logo,
   .logo1 {
@@ -1102,15 +1103,145 @@
   #section2-2-1 {
     width: 100%;
     height: 45vw;
-    font-size: 4.5vw;
+    font-size: 3.8vw;
     max-width: 100%;
     padding: 4vw;
+  }
+  @keyframes spaceletter1-1 {
+    0% {
+      letter-spacing: 0vw;
+    }
+    100% {
+      letter-spacing: 0.8vw;
+    }
+  }
+
+  @keyframes spaceletter2-1 {
+    0% {
+      letter-spacing: 0vw;
+    }
+    100% {
+      letter-spacing: 0.8vw;
+    }
+  }
+
+  @keyframes spaceletter3-1 {
+    0% {
+      letter-spacing: 0vw;
+    }
+    100% {
+      letter-spacing: 0.8vw;
+    }
+  }
+
+  @keyframes spaceletter4-1 {
+    0% {
+      letter-spacing: 0vw;
+    }
+    100% {
+      letter-spacing: 0.8vw;
+    }
+  }
+
+  @keyframes spaceletter5-1 {
+    0% {
+      letter-spacing: 0vw;
+    }
+    100% {
+      letter-spacing: 0.8vw;
+    }
+  }
+
+  @keyframes spaceletter6-1 {
+    0% {
+      letter-spacing: 0vw;
+    }
+    100% {
+      letter-spacing: 0.8vw;
+    }
+  }
+
+  @keyframes spaceletter7-1 {
+    0% {
+      letter-spacing: 0vw;
+    }
+    100% {
+      letter-spacing: 0.8vw;
+    }
+  }
+
+  @keyframes spaceletter8-1 {
+    0% {
+      letter-spacing: 0vw;
+    }
+    100% {
+      letter-spacing: 0.8vw;
+    }
+  }
+  .bold1 {
+    animation: spaceletter1-1 0.85s infinite alternate linear;
+  }
+
+  .bold2 {
+    animation: spaceletter2-1 0.9s infinite alternate linear;
+  }
+
+  .bold3 {
+    animation: spaceletter3-1 0.95s infinite alternate linear;
+  }
+
+  .bold4 {
+    animation: spaceletter4-1 1s infinite alternate linear;
+  }
+
+  .bold5 {
+    animation: spaceletter5-1 1.05s infinite alternate linear;
+  }
+
+  .bold6 {
+    animation: spaceletter5-1 1.1s infinite alternate linear;
+  }
+
+  .bold7 {
+    animation: spaceletter5-1 1.15s infinite alternate linear;
+  }
+
+  .bold8 {
+    animation: spaceletter5-1 1.2s infinite alternate linear;
   }
 
   #section-2-bottom {
     width: 100%;
-    height: 38vw;
+    height: 66vw;
     max-width: 100%;
+  }
+
+  #section-1 {
+    order: 2;
+    width: 100% !important;
+    height: 29vw;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  #section-1-1 {
+    padding: 0;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left {
+    top: -30vw;
+  }
+
+  .right1 img,
+  .right2 img,
+  .right3 img,
+  .right4 img {
+    width: 13vw;
+    height: 13vw;
   }
 
   #section2-2-2 {
@@ -1294,8 +1425,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 4.95vw;
-    left: 5vw;
+    top: 10.8vw;
+    left: 10.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square13:hover {
@@ -1309,8 +1440,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 4.95vw;
-    left: 9.5vw;
+    top: 10.8vw;
+    left: 20.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square14:hover {
@@ -1324,8 +1455,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 4.95vw;
-    left: 13.96vw;
+    top: 10.8vw;
+    left: 30.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square15:hover {
@@ -1340,8 +1471,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 4.95vw;
-    left: 18.45vw;
+    top: 10.8vw;
+    left: 40.45vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square16:hover {
@@ -1356,8 +1487,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 4.95vw;
-    left: 22.95vw;
+    top: 10.8vw;
+    left: 50.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square17:hover {
@@ -1372,8 +1503,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 4.95vw;
-    left: 27.45vw;
+    top: 10.8vw;
+    left: 60.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square18:hover {
@@ -1387,8 +1518,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 4.95vw;
-    left: 31.955vw;
+    top: 10.8vw;
+    left: 70.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square19:hover {
@@ -1402,8 +1533,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 4.95vw;
-    left: 36.44vw;
+    top: 10.8vw;
+    left: 80.6vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square20:hover {
@@ -1417,8 +1548,8 @@
     background-color: #623dc3;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 4.95vw;
-    left: 40.94vw;
+    top: 10.8vw;
+    left: 90.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square21:hover {
@@ -1449,8 +1580,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 9.45vw;
-    left: 5vw;
+    top: 20.9vw;
+    left: 10.55vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square24:hover {
@@ -1464,8 +1595,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 9.45vw;
-    left: 9.5vw;
+    top: 20.9vw;
+    left: 20.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square25:hover {
@@ -1479,8 +1610,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 9.45vw;
-    left: 13.96vw;
+    top: 20.9vw;
+    left: 30.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square26:hover {
@@ -1494,8 +1625,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 9.45vw;
-    left: 18.45vw;
+    top: 20.9vw;
+    left: 40.45vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square27:hover {
@@ -1509,8 +1640,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 9.45vw;
-    left: 22.95vw;
+    top: 20.9vw;
+    left: 50.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square28:hover {
@@ -1524,8 +1655,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 9.45vw;
-    left: 27.45vw;
+    top: 20.9vw;
+    left: 60.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square29:hover {
@@ -1539,8 +1670,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 9.45vw;
-    left: 31.955vw;
+    top: 20.9vw;
+    left: 70.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square30:hover {
@@ -1554,8 +1685,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 9.45vw;
-    left: 36.44vw;
+    top: 20.9vw;
+    left: 80.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square31:hover {
@@ -1569,8 +1700,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 9.45vw;
-    left: 40.94vw;
+    top: 20.9vw;
+    left: 90.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square32:hover {
@@ -1599,8 +1730,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 14.05vw;
-    left: 5vw;
+    top: 30.99vw;
+    left: 10.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square36:hover {
@@ -1614,8 +1745,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 14.05vw;
-    left: 9.5vw;
+    top: 30.99vw;
+    left: 20.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square37:hover {
@@ -1629,8 +1760,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 14.05vw;
-    left: 13.96vw;
+    top: 30.99vw;
+    left: 30.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square38:hover {
@@ -1644,8 +1775,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 14.05vw;
-    left: 18.45vw;
+    top: 30.99vw;
+    left: 40.45vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square39:hover {
@@ -1659,8 +1790,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 14.05vw;
-    left: 22.95vw;
+    top: 30.99vw;
+    left: 50.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square40:hover {
@@ -1674,8 +1805,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 14.05vw;
-    left: 27.45vw;
+    top: 30.99vw;
+    left: 60.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square41:hover {
@@ -1689,8 +1820,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 40%;
-    top: 14.05vw;
-    left: 31.955vw;
+    top: 30.99vw;
+    left: 70.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square42:hover {
@@ -1704,8 +1835,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 14.05vw;
-    left: 36.44vw;
+    top: 30.99vw;
+    left: 80.6vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square43:hover {
@@ -1719,8 +1850,8 @@
     background-color: #6b41c9;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 14.05vw;
-    left: 40.94vw;
+    top: 30.99vw;
+    left: 90.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square44:hover {
@@ -1750,8 +1881,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 18.6vw;
-    left: 5vw;
+    top: 40.95vw;
+    left: 10.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square46:hover {
@@ -1765,8 +1896,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 18.6vw;
-    left: 9.5vw;
+    top: 40.95vw;
+    left: 20.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square47:hover {
@@ -1780,8 +1911,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 18.6vw;
-    left: 13.96vw;
+    top: 40.95vw;
+    left: 30.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square48:hover {
@@ -1795,8 +1926,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 18.6vw;
-    left: 18.45vw;
+    top: 40.95vw;
+    left: 40.45vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square49:hover {
@@ -1810,8 +1941,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 18.6vw;
-    left: 22.95vw;
+    top: 40.95vw;
+    left: 50.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square50:hover {
@@ -1825,8 +1956,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 18.6vw;
-    left: 27.45vw;
+    top: 40.95vw;
+    left: 60.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square51:hover {
@@ -1840,8 +1971,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 18.6vw;
-    left: 31.955vw;
+    top: 40.95vw;
+    left: 70.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square52:hover {
@@ -1855,8 +1986,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 20%;
-    top: 18.6vw;
-    left: 36.44vw;
+    top: 40.95vw;
+    left: 80.6vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square53:hover {
@@ -1870,8 +2001,8 @@
     background-color: #854dda;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 18.6vw;
-    left: 40.94vw;
+    top: 40.95vw;
+    left: 90.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square54:hover {
@@ -1901,8 +2032,8 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 5vw;
+    top: 50.99vw;
+    left: 10.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square57:hover {
@@ -1916,8 +2047,8 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 9.5vw;
+    top: 50.99vw;
+    left: 20.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square58:hover {
@@ -1931,8 +2062,8 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 13.96vw;
+    top: 50.99vw;
+    left: 30.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square59:hover {
@@ -1946,8 +2077,8 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 18.45vw;
+    top: 50.99vw;
+    left: 40.45vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square60:hover {
@@ -1961,8 +2092,8 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 22.95vw;
+    top: 50.99vw;
+    left: 50.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
 
@@ -1977,8 +2108,8 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 27.45vw;
+    top: 50.99vw;
+    left: 60.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square62:hover {
@@ -1992,8 +2123,8 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 31.955vw;
+    top: 50.99vw;
+    left: 70.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
 
@@ -2008,8 +2139,8 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 36.44vw;
+    top: 50.99vw;
+    left: 80.6vw;
   }
   .square64:hover {
     border-radius: 40%;
@@ -2022,13 +2153,28 @@
     background-color: #9052e2;
     stroke-width: 34px;
     border-radius: 5%;
-    top: 23.2vw;
-    left: 40.94vw;
+    top: 50.99vw;
+    left: 90.5vw;
     transition: border-radius 0.1s ease-in-out;
   }
   .square65:hover {
     border-radius: 40%;
     background-color: #bd67ff;
+  }
+
+  .feel1-1,
+  .feel1-2,
+  .feel1-3,
+  .feel1-4,
+  .feel1-5,
+  .feel1-6,
+  .feel1-7,
+  .feel1-8,
+  .feel1-9,
+  .feel1-10,
+  .feel1-11 {
+    font-size: 4.5vw;
+    padding-top: 1.4vw;
   }
 
   #section-2-all {
@@ -2091,6 +2237,36 @@
     height: 52.3vw;
     background: radial-gradient(#000000 50%, #ffffff 400%);
     z-index: -1;
+  }
+  .pink1 {
+    width: 17.5vw;
+    height: 17.5vw;
+    bottom: 18.25vw;
+    right: 89.75vw;
+  }
+  .pink2 {
+    width: 17.5vw;
+    height: 17.5vw;
+    bottom: -9.75vw;
+    right: 38.75vw;
+  }
+  .white {
+    width: 146.5vw;
+    height: 62.5vw;
+    bottom: -29.75vw;
+    right: 5.75vw;
+  }
+  .white2 {
+    width: 146.5vw;
+    height: 62.5vw;
+    bottom: -29.75vw;
+    right: 5.75vw;
+  }
+  .white3 {
+    width: 146.5vw;
+    height: 62.5vw;
+    bottom: -29.75vw;
+    right: 5.75vw;
   }
 
   .white-back {
@@ -2403,5 +2579,177 @@
     66% {
       background-position-x: -219.83vw;
     }
+  }
+
+  #section-4-all {
+    flex-direction: column-reverse;
+  }
+  .section-4-left {
+    width: 100vw;
+    height: 55vw;
+    background-size: 86vw;
+    background-position-x: 9vw;
+  }
+
+  .square4-1 {
+    top: 38.4vw;
+    left: -8vw;
+    width: 18vw;
+    height: 20vw;
+  }
+  .square4-2 {
+    top: 36.5vw;
+    left: -13.5vw;
+    width: 27vw;
+    height: 27vw;
+  }
+  .square4-3 {
+    top: 35.5vw;
+    left: -9.5vw;
+    width: 27vw;
+    height: 27vw;
+  }
+  .square4-4 {
+    top: 35.5vw;
+    left: -3.5vw;
+    width: 27vw;
+    height: 27vw;
+  }
+
+  .square4-5 {
+    top: 34.2vw;
+    left: -0.5vw;
+    width: 27vw;
+    height: 27vw;
+    transform: rotate(123deg);
+  }
+  .square4-6 {
+    top: 32.8vw;
+    left: 4vw;
+    width: 28vw;
+    height: 27vw;
+    transform: rotate(119deg);
+  }
+  .square4-7 {
+    top: 30.8vw;
+    left: 8vw;
+    width: 28.5vw;
+    height: 28.5vw;
+  }
+  .square4-8 {
+    top: 30vw;
+    left: 12.3vw;
+    width: 27.5vw;
+    height: 27.5vw;
+  }
+  .square4-9 {
+    top: 28.5vw;
+    left: 15.2vw;
+    width: 27.5vw;
+    height: 27.5vw;
+    transform: rotate(109deg);
+  }
+  .square4-10 {
+    top: 26.5vw;
+    left: 17.2vw;
+    width: 27.5vw;
+    height: 27.5vw;
+    transform: rotate(108deg);
+  }
+  .square4-11 {
+    top: 23.7vw;
+    left: 21.8vw;
+    width: 27.5vw;
+    height: 27.5vw;
+    transform: rotate(105deg);
+  }
+  .square4-12 {
+    top: 19.4vw;
+    left: 22.5vw;
+    width: 28.5vw;
+    height: 28.5vw;
+    transform: rotate(99deg);
+  }
+  .square4-13 {
+    top: 16.4vw;
+    left: 25vw;
+    width: 29.5vw;
+    height: 29.5vw;
+    transform: rotate(94deg);
+  }
+  .square4-14 {
+    top: 14vw;
+    left: 27.5vw;
+    width: 29.5vw;
+    height: 29.8vw;
+    transform: rotate(91deg);
+  }
+  .square4-15 {
+    top: 11.5vw;
+    left: 31.5vw;
+    width: 29.5vw;
+    height: 29.8vw;
+    transform: rotate(87deg);
+  }
+  .square4-16 {
+    top: 8.7vw;
+    left: 34vw;
+    width: 29.5vw;
+    height: 29.8vw;
+    transform: rotate(86deg);
+  }
+  .square4-17 {
+    top: 5.3vw;
+    left: 36.6vw;
+    width: 30.5vw;
+    height: 30.8vw;
+    transform: rotate(83deg);
+  }
+  .square4-18 {
+    top: 2.5vw;
+    left: 41.4vw;
+    width: 30.5vw;
+    height: 30.8vw;
+    transform: rotate(81deg);
+  }
+  .square4-19 {
+    top: -2.5vw;
+    left: 44.4vw;
+    width: 31.5vw;
+    height: 31.8vw;
+    transform: rotate(80deg);
+  }
+  .square4-20 {
+    top: -9.5vw;
+    left: 48.4vw;
+    width: 31.5vw;
+    height: 31.8vw;
+  }
+  .square4-21 {
+    top: -14.5vw;
+    left: 52.4vw;
+    width: 32vw;
+    height: 32vw;
+    transform: rotate(80deg);
+  }
+  .section-4-right {
+    width: 101vw;
+    height: 60vw;
+  }
+  .robo1,
+  .robo2,
+  .robo3,
+  .robo4 {
+    width: 40vw;
+    height: 50vw;
+    object-fit: contain;
+  }
+
+  .stroka2 div:nth-of-type(1) {
+    font-family: "TTLakesNeueEduRegular";
+    font-size: 6.8vw;
+    width: 363.7%;
+    height: 13.5vw;
+    gap: 4vw;
   }
 }

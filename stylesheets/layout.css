@@ -10,7 +10,7 @@ body {
 }
 
 .bold1 {
-  letter-spacing: 0.22vw;
+  letter-spacing: 0.2vw;
 }
 .bold2 {
   letter-spacing: 0.22vw;
@@ -1986,8 +1986,6 @@ body {
   width: 43vw;
   height: 27vw;
   background: black;
-  background-image: url("../images/kvadratiki2.png");
-  background-size: 44vw;
 }
 
 .square4-1 {
