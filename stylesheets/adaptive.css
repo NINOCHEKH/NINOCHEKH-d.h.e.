@@ -1064,45 +1064,75 @@
 }
 
 @media (max-width: 414px) {
+  * {
+    box-sizing: border-box;
+  }
+
   body {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
   }
+
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
   #section-2 {
-    width: 100vw;
+    width: 100% !important;
     height: 94.8vw;
+    max-width: 100%;
+    overflow: hidden;
   }
+
   .back2 img {
     width: 105%;
     height: 116%;
+    max-width: 105%;
   }
 
   #section2-2-1 {
-    width: 98.6vw;
+    width: 100% !important;
     height: 45vw;
-    font-size: 1.86vw;
+    font-size: 4.5vw;
+    max-width: 100%;
+    padding: 4vw;
   }
 
   #section-2-bottom {
     width: 100%;
     height: 38vw;
+    max-width: 100%;
   }
+
   #section2-2-2 {
-    width: 100.4vw;
+    width: 100% !important;
     height: 61vw;
+    max-width: 100%;
+    overflow: hidden;
   }
+
   #section-2-all {
     display: flex;
     flex-direction: column;
     order: 1;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
   }
+
   #section-2-top {
     flex-direction: column;
+    width: 100%;
+    max-width: 100%;
   }
 
   #section2-2 {
     flex-direction: column;
     width: 100% !important;
+    max-width: 100%;
   }
 
   #section-1 {
@@ -1111,5 +1141,15 @@
     height: 41vw;
     overflow: hidden;
     justify-content: center;
+    max-width: 100%;
+  }
+
+  .stroka,
+  .stroka2,
+  #section-3-all,
+  #section-4-all {
+    width: 100% !important;
+    max-width: 100%;
+    overflow: hidden;
   }
 }
