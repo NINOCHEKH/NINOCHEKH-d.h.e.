@@ -65,7 +65,7 @@ body {
   align-items: center;
   white-space: nowrap;
   gap: 2vw;
-  width: 198.7%;
+  width: 198.2%;
   height: 6.5vw;
 }
 
@@ -2309,11 +2309,11 @@ body {
   align-items: center;
   white-space: nowrap;
   gap: 2vw;
-  width: 176%;
+  width: 176.5%;
   height: 6.5vw;
 }
 
 .run {
   display: inline-block;
-  animation: moveRun 6.5s linear infinite;
+  animation: moveRun 10.5s linear infinite;
 }

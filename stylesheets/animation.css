@@ -45,6 +45,42 @@
   }
 }
 
+@keyframes rotate768Right1-mobile {
+  0% {
+    transform: translateY(0vw);
+  }
+  100% {
+    transform: translateY(60vw);
+  }
+}
+
+@keyframes rotate768Right2-mobile {
+  0% {
+    transform: translate(0vw);
+  }
+  100% {
+    transform: translateX(57vw);
+  }
+}
+
+@keyframes rotate768Right3-mobile {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(45vw);
+  }
+}
+
+@keyframes rotate768Right4-mobile {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(40vw);
+  }
+}
+
 /* фрейм с роботом */
 
 @keyframes spin1 {
